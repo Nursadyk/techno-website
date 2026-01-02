@@ -22,7 +22,10 @@
           <a href="#">
             <img src="./images/google-logo.png" alt="" />
           </a>
-          <nav class="hidden lg:block">
+          <nav
+            class="hidden lg:block absolute top-full right-0 bg-[#E7EBEE] w-60 text-center md:relative md:top-0 md:bg-transparent md:w-full"
+            id="navbar"
+          >
             <ul class="flex flex-col lg:flex-row gap-[20px]">
               <li><a href="">Phones</a></li>
               <li><a href="">Earbuds</a></li>
@@ -35,7 +38,7 @@
             </ul>
           </nav>
         </div>
-        <div class="flex gap-[24px]">
+        <div class="flex gap-[24px] items-center">
           <button class="cursor-pointer">
             <img src="/images/search.png" alt="" />
           </button>
@@ -47,6 +50,14 @@
           </button>
           <button class="cursor-pointer">
             <img src="/images/user.png" alt="" />
+          </button>
+          <button
+            class="flex flex-col gap-1 cursor-pointer md:hidden"
+            id="bars-btn"
+          >
+            <span class="w-5 h-0.5 bg-[#000] inline-block"></span>
+            <span class="w-5 h-0.5 bg-[#000] inline-block"></span>
+            <span class="w-5 h-0.5 bg-[#000] inline-block"></span>
           </button>
         </div>
       </div>
@@ -399,5 +410,6 @@
         </div>
       </div>
     </footer>
+    <script src="/script.js"></script>
   </body>
 </html>
