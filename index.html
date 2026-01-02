@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header
+      class="fixed top-0 left-0 right-0 bg-white z-20 pt-[17px] pb-[14px]"
+    >
+      <div class="flex justify-between container">
+        <div class="flex gap-[20px]">
+          <a href="#">
+            <img src="./images/google-logo.png" alt="" />
+          </a>
+          <nav class="hidden lg:block">
+            <ul class="flex flex-col lg:flex-row gap-[20px]">
+              <li><a href="">Phones</a></li>
+              <li><a href="">Earbuds</a></li>
+              <li><a href="">Watches</a></li>
+              <li><a href="">Smart home</a></li>
+              <li><a href="">Laptops</a></li>
+              <li><a href="">Accessories</a></li>
+              <li><a href="">Subscriptions</a></li>
+              <li><a href="">Offers</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="flex gap-[24px]">
+          <button class="cursor-pointer">
+            <img src="/images/search.png" alt="" />
+          </button>
+          <button class="cursor-pointer">
+            <img src="/images/help.png" alt="" />
+          </button>
+          <button class="cursor-pointer">
+            <img src="/images/shopping-cart.png" alt="" />
+          </button>
+          <button class="cursor-pointer">
+            <img src="/images/user.png" alt="" />
+          </button>
+        </div>
+      </div>
+    </header>
+    <section
+      class="h-screen w-full bg-[url('./images/bg.png')] bg-no-repeat bg-cover flex flex-col justify-center"
+    >
+      <div class="container">
+        <div class="md:pl-[129px]">
+          <h1
+            class="text-5xl md:text-[57px] max-w-[316px] leading-[68px] font-normal tracking-[2px]"
+          >
+            Inhale. Gift⁠. Exhale.
+          </h1>
+          <p class="text-bace max-w-[356px] py-[22px]">
+            The gifts you need, stress-free. Shop the best of Google with ease.
+          </p>
+          <div class="flex items-center gap-[26px]">
+            <a href="#" class="py-[8px] px-[20px] border rounded-sm"
+              >Browse deals</a
+            >
+            <a href="#">Browse the gift guide</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h3 class="text-center py-4 md:pt-[79px] md:pb-[90px]">
+      Sneak a peek. For you or for them.
+    </h3>
+    <section>
+      <div class="container flex gap-[23px]">
+        <div class="bg-[#F8F9FA] rounded-[20px] py-5 w-[183px]">
+          <div class="relative">
+            <p class="absolute left-[29px] text-sm text-[#1967D2]">New</p>
+            <img
+              src="/images/explore1.png"
+              alt=""
+              class="flex-shrink-0 w-full"
+            />
+          </div>
+        </div>
+        <div class="bg-[#F8F9FA] rounded-[20px] py-5 w-[183px]">
+          <div class="relative">
+            <p class="absolute left-[29px] text-sm text-[#1967D2]">New</p>
+            <img src="/images/explore2.png" alt="" />
+          </div>
+        </div>
+        <div class="bg-[#F8F9FA] rounded-[20px] py-5">
+          <div class="relative">
+            <p class="absolute left-[29px] text-sm text-[#1967D2]">New</p>
+            <img src="/images/explore3.png" alt="" />
+          </div>
+        </div>
+        <div class="bg-[#F8F9FA] rounded-[20px] py-5">
+          <div class="relative">
+            <p class="absolute left-[29px] text-sm text-[#1967D2]">New</p>
+            <img src="/images/explore4.png" alt="" />
+          </div>
+        </div>
+        <div class="bg-[#F8F9FA] rounded-[20px] py-5">
+          <div class="relative">
+            <p class="absolute left-[29px] text-sm text-[#1967D2]">New</p>
+            <img src="/images/explore5.png" alt="" />
+          </div>
+        </div>
+        <div class="bg-[#F8F9FA] rounded-[20px] py-5">
+          <div class="relative">
+            <p class="absolute left-[29px] text-sm text-[#1967D2]">New</p>
+            <img src="/images/explore6.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pt-[46px]">
+      <div class="container bg-[#F8F9FA] rounded-3xl">
+        <div class="flex flex-col md:flex-row flex gap-x-[117px] gap-y-[20px]">
+          <div>
+            <img src="/images/basketball.png" alt="" />
+          </div>
+          ~
+          <div class="self-center">
+            <h3 class="text-[32px] leading-10 max-w-[315px]">
+              This holiday season, Google Pixel is giving back.
+            </h3>
+            <p class="py-[26px] leading-6 max-w-[389px]">
+              We're contributing $1 million to the NBA Foundation to help
+              advance HBCU students in their careers across STEM, sports, and
+              media industries.
+            </p>
+            <a href="#" class="text-[#1967D2] leading-6">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-20">
+      <div class="container">
+        <div class="grid grid-cols-12 gap-6">
+          <div
+            class="col-span-12 md:col-span-4 bg-[#E9E3DB] rounded-3xl flex flex-col items-center"
+          >
+            <h2 class="text-[#3C4043] py-4">Google Pixel Watch</h2>
+            <h3 class="text-3xl lg:text-4xl mb-6">
+              Help by Google. <br />
+              Health by Fitbit.
+            </h3>
+            <a href="#" class="border-[2px] w-fit self-center px-4 mb-7 rounded"
+              >Learn more</a
+            >
+            <div><img src="/images/clock1.png" alt="" /></div>
+          </div>
+
+          <div
+            class="col-span-12 md:col-span-4 bg-[#E9E3DB] rounded-3xl flex flex-col items-center"
+          >
+            <h2 class="text-[#3C4043] py-4">Nest Wifi Pro with Wi-Fi 6E</h2>
+            <h3 class="text-3xl lg:text-4xl mb-6">
+              The better way <br />
+              to Wi-Fi.
+            </h3>
+            <a href="#" class="border-[2px] w-fit self-center px-4 mb-7 rounded"
+              >Learn more</a
+            >
+            <div><img src="/images/clock2.png" alt="" /></div>
+          </div>
+
+          <div
+            class="col-span-12 md:col-span-4 bg-[#E9E3DB] rounded-3xl flex flex-col items-center"
+          >
+            <h2 class="text-[#3C4043] py-4">Nest Doorbell (wired)</h2>
+            <h3 class="text-3xl lg:text-4xl mb-6">
+              Know more. <br />
+              No charging.
+            </h3>
+            <a href="#" class="border-[2px] w-fit self-center px-4 mb-7 rounded"
+              >Learn more</a
+            >
+            <div><img src="/images/clock3.png" alt="" /></div>
+          </div>
+          <div
+            class="col-span-12 md:col-span-6 bg-[#D6E2DB] flex flex-col items-center"
+          >
+            <h2 class="text-[#3C4043] py-4">Pixel Pass</h2>
+            <h3 class="text-3xl lg:text-4xl mb-6">
+              One price for <br />
+              all things Pixel.
+            </h3>
+            <a href="#" class="border-[2px] w-fit self-center px-4 mb-7 rounded"
+              >Learn more</a
+            >
+            <div><img src="/images/clock4.png" alt="" /></div>
+          </div>
+          <div
+            class="col-span-12 md:col-span-6 bg-[#EFDDCD] flex flex-col items-center"
+          >
+            <h2 class="text-[#3C4043] py-4">Switch to Pixel</h2>
+            <h3 class="text-3xl lg:text-4xl mb-6 max-w-[331px] mx-auto">
+              Here’s what #TeamPixel has to say about it.
+            </h3>
+            <a href="#" class="border-[2px] w-fit self-center px-4 mb-7 rounded"
+              >Learn more</a
+            >
+            <div><img src="/images/clock5.png" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Categories-->
+    <h2 class="text-[40px] text-center mb-11">Shop by category.</h2>
+    <div class="flex gap-2 md:gap-6 justify-center px-3">
+      <div class="flex flex-col items-center gap-6">
+        <img src="/images/category1.png" alt="" />
+        <h3 class="text-[#1967D2] text-xs md:text-sm">Cameras</h3>
+      </div>
+      <div class="flex flex-col items-center gap-6">
+        <img src="/images/category2.png" alt="" />
+        <h3 class="text-[#1967D2] text-xs md:text-sm">Doorbells</h3>
+      </div>
+      <div class="flex flex-col items-center gap-6">
+        <img src="/images/category3.png" alt="" />
+        <h3 class="text-[#1967D2] text-xs md:text-sm">Streaming</h3>
+      </div>
+      <div class="flex flex-col items-center gap-6">
+        <img src="/images/category4.png" alt="" />
+        <h3 class="text-[#1967D2] text-xs md:text-sm">Packages</h3>
+      </div>
+    </div>
+    <section class="pt-30 pb-20">
+      <div
+        class="container flex gap-6 flex-wrap md:flex-nowrap justify-between"
+      >
+        <div class="bg-[#F3F2F1] rounded-3xl flex flex-col items-center">
+          <h2 class="text-[#3C4043] py-4">Watches</h2>
+          <h3 class="text-3xl lg:text-4xl mb-6">
+            Keep moving. <br />
+            Keep improving.
+          </h3>
+          <a href="#" class="border-[2px] w-fit self-center px-4 mb-7 rounded"
+            >Explore watches</a
+          >
+          <div><img src="/images/category5.png" alt="" /></div>
+        </div>
+        <div class="bg-[#E7EBEE] rounded-3xl flex flex-col items-center">
+          <h2 class="text-[#3C4043] py-4">Earbuds</h2>
+          <h3 class="text-3xl lg:text-4xl mb-6">
+            Great sound. <br />
+            All around.
+          </h3>
+          <a href="#" class="border-[2px] w-fit self-center px-4 mb-7 rounded"
+            >Explore earbuds</a
+          >
+          <div><img src="/images/category6.png" alt="" /></div>
+        </div>
+      </div>
+    </section>
+    <section class="py-20">
+      <div
+        class="container flex flex-wrap items-center gap-2 md:flex-nowrap lg:gap-[129px]"
+      >
+        <div>
+          <img src="/images/about.png" alt="" />
+        </div>
+        <div class="max-w-[392px]">
+          <h3 class="text-[40px] text-[#3C4043]">
+            Putting sustainability to work.
+          </h3>
+          <p class="text-[#3C4043] py-5">
+            We’re committed to using recycled or renewable material in all
+            Pixel, Nest, and Fitbit products by 2025.
+          </p>
+          <a href="#" class="border-[2px] rounded py-2 px-5">Learn more</a>
+        </div>
+      </div>
+    </section>
+    <section class="py-15">
+      <div class="flex flex-col justify-center items-center px-3">
+        <img src="/images/contact.png" alt="" />
+        <h3 class="text-3xl pt-4 pb-10 text-center">
+          Keep me updated about devices, news,<br />
+          tips, and offers from Google Store.
+        </h3>
+        <a href="#" class="text-[#202124] border-[2px] rounded px-5"
+          >Log in and sign up</a
+        >
+        <a href="#" class="text-[#1967D2] pt-7">or enter email address</a>
+      </div>
+    </section>
+    <div class="container pb-5">
+      <p class="text-xs max-w-[1181px]">
+        Here’s what you will pay for Pixel Pass: You'll be required to finance
+        your Pixel Pass purchase with 0% APR Google Store Financing.​​ The full
+        cost of your Pixel and Preferred Care is spread out over 24 monthly
+        payments. The Google services included in Pixel Pass will be charged to
+        your Google Store Financing account each month. Your Pixel Pass
+        subscription will appear as two separate transactions every month on
+        your Google Store Financing account. From $45/month: $648.68 at 0% APR
+        with 24 equal monthly payments = $27.03/month plus Pixel Pass services
+        (Google One 200 GB) = $17.97/month for a Total monthly payment =
+        $45/month. Adjusted for taxes and shipping.
+      </p>
+    </div>
+    <footer class="pt-[96px]">
+      <div class="container flex flex-col">
+        <div class="flex gap-13 self-end pb-[71px]">
+          <ul class="flex flex-col gap-6">
+            <li>
+              <a href="" class="text-sm text-[#3C4043]">Placing an order</a>
+            </li>
+            <li>
+              <a href="" class="text-sm text-[#3C4043]">Shipping options</a>
+            </li>
+            <li>
+              <a href="" class="text-sm text-[#3C4043]">Tracking a package</a>
+            </li>
+            <li>
+              <a href="" class="text-sm text-[#3C4043]">Country availability</a>
+            </li>
+            <li>
+              <a href="" class="text-sm text-[#3C4043]">Repairs</a>
+            </li>
+            <li>
+              <a href="" class="text-sm text-[#3C4043]">Installation</a>
+            </li>
+            <li>
+              <a href="" class="text-sm text-[#3C4043]">Ideas & Info</a>
+            </li>
+          </ul>
+          <ul class="flex flex-col gap-6">
+            <li>
+              <a href="" class="text-sm text-[#3C4043]">Help Center</a>
+            </li>
+            <li>
+              <a href="" class="text-sm text-[#3C4043]">Contact Us</a>
+            </li>
+            <li>
+              <a href="" class="text-sm text-[#3C4043]">Financing</a>
+            </li>
+            <li>
+              <a href="" class="text-sm text-[#3C4043]">Device recycling</a>
+            </li>
+            <li>
+              <a href="" class="text-sm text-[#3C4043]">Sustainability</a>
+            </li>
+            <li>
+              <a href="" class="text-sm text-[#3C4043]">Gift returns</a>
+            </li>
+            <li>
+              <a href="" class="text-sm text-[#3C4043]">Refurbished</a>
+            </li>
+            <li>
+              <a href="" class="text-sm text-[#3C4043]">Trade-in</a>
+            </li>
+            <li>
+              <a href="" class="text-sm text-[#3C4043]">Pixel for Business</a>
+            </li>
+            <li>
+              <a href="" class="text-sm text-[#3C4043]">Locations</a>
+            </li>
+          </ul>
+        </div>
+        <hr class="pb-4 border-[#F2F2F2]" />
+        <div class="flex justify-between">
+          <div class="flex items-center gap-4">
+            <img src="/images/twitter.png" alt="" />
+            <img src="/images/instagram.png" alt="" />
+            <img src="/images/facebook.png" alt="" />
+            <img src="/images/youtube.png" alt="" />
+            <img src="/images/tick-tock.png" alt="" />
+          </div>
+          <nav class="hidden md:block">
+            <ul class="flex items-center gap-2 lg:gap-10">
+              <li class="flex items-center gap-3">
+                <img src="/images/footer-flag.png" alt="" />
+                <a href="#" class="text-xs">United States</a>
+              </li>
+              <li>
+                <a href="#" class="text-xs">Privacy</a>
+              </li>
+              <li>
+                <a href="#" class="text-xs"
+                  >Google Nest Commitment to Privacy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-xs">Sales Terms</a>
+              </li>
+              <li>
+                <a href="#" class="text-xs">Terms of Service</a>
+              </li>
+              <li>
+                <a href="#" class="text-xs">TCareers</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
